@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./book_seat.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading"><h2>Choose Seat</h2></div>
+
+    <div class="whole">
+      <div class="bus_floor">
+        <div class="seat_row">
+          <div id="seat1" class="seat">1</div>
+          <div id="seat2" class="seat">2</div>
+          <div id="seat3" class="seat">3</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat4" class="seat">4</div>
+          <div  id="seat5" class="seat">5</div>
+          <div  id="seat6" class="seat">6</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat7" class="seat">7</div>
+          <div  id="seat8" class="seat">8</div>
+          <div  id="seat9" class="seat">9</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat10" class="seat">10</div>
+          <div  id="seat11" class="seat">11</div>
+          <div  id="seat12" class="seat">12</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat13" class="seat">13</div>
+          <div  id="seat14" class="seat">14</div>
+          <div  id="seat15" class="seat">15</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat16" class="seat">16</div>
+          <div  id="seat17" class="seat">17</div>
+          <div  id="seat18" class="seat">18</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat19" class="seat">19</div>
+          <div  id="seat20" class="seat">20</div>
+          <div  id="seat21"  class="seat">21</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat22" class="seat">22</div>
+          <div  id="seat23" class="seat">23</div>
+          <div  id="seat24" class="seat">24</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat25" class="seat">25</div>
+          <div id="seat26"  class="seat">26</div>
+          <div  id="seat27" class="seat">27</div>
+        </div>
+
+        <div class="seat_row">
+          <div  id="seat28" class="seat">28</div>
+          <div  id="seat29" class="seat">29</div>
+          <div  id="seat30" class="seat">30</div>
+        </div>
+      </div>
+
+      <div class="selected_details">
+        <h1 style="padding-top: 10px ;">Selected Details : </h1> <br> <br> <br>
+        <h4 style="display:inline ;">Bus Number : </h4>
+        <h4 style="display:inline ;" id="selected_bus"></h4>
+        <br> <br>
+        <h4 style="display:inline ;">Bus Departure Time : </h4>
+        <h4 style="display:inline ;" id="selected_bus_time"></h4>
+        <br> <br>
+        <h4 style="display:inline ;">Ticket Price : </h4>
+        <h4 style="display:inline ;" id="selected_bus_price"></h4>
+        <br> <br>
+        <h4 style="display:inline ;">Your Seats : </h4>
+        <h4 style="display:inline ;" id="total_selected_seats"></h4>
+
+        <br> <br>
+        <h4 style="display:inline ;">Chosen Sits : </h4>
+        <h4 style="display:inline ;" id="total_chosen_seats"></h4>
+
+        <br> <br>
+        <h4 style="display:inline ;">Total Cost : </h4>
+        <h4 style="display:inline ;" id="total_cost"></h4>
+
+
+        <br><br><br>
+        <button id="confirm_details" type="button" class="btn btn-primary" >Confirm Details</button>
+      </div>
+
+
+    </div>
+
+    
+    <script src="seat_check.js" type="module"></script>
+  </body>
+</html>

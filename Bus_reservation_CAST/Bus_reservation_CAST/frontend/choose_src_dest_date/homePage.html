@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="../profile/profile.html">Profile</a>
+    </nav>
+
+    <div class="main">
+      <div class="booking_options">
+        <form action="" method="get" class="form">
+          <label for="location">Choose Picking Point : </label>
+          <input list="locations" name="source" />
+          <datalist id="locations"> </datalist>
+
+          <label for="location">Choose Destination Point : </label>
+          <input list="locations" name="dest" />
+          <datalist id="locations"> </datalist>
+
+          <br />
+          <label for="location">Choose Date : </label>
+          <input type="date" name="date" id="journey_date" />
+          <br />
+          <input
+            style="margin-top: 30px"
+            ;
+            class="btn btn-danger"
+            type="submit"
+          />
+        </form>
+      </div>
+    </div>
+
+    <div id="available_buses" class="main_style">
+      <div id="av_bus_no" class="ticket_av"></div>
+      <div id="av_bus_src" class="ticket_av"></div>
+      <div id="av_bus_dest" class="ticket_av"></div>
+      <div id="av_bus_price" class="ticket_av"></div>
+      <div id="av_bus_time" class="ticket_av"></div>
+      <button id="book_now" type="button" class="btn btn-success">
+        Book Seat
+      </button>
+    </div>
+
+    <div
+      style="padding-left: 40px; width: 40%"
+      id="not_available_buses"
+      class="main_style"
+    ></div>
+    <script src="available_bus.js" type="module"></script>
+  </body>
+</html>

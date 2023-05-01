@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="login_style.css">
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <img
+            src="../../images/user.png"
+            id="icon"
+            alt="User Icon"
+          />
+        </div>
+
+        <!-- SignUP Form -->
+        <form action="" method="get" class="form">
+          <input
+            type="text"
+            id="signup"
+            class="fadeIn second"
+            name="user_email"
+            placeholder="email"
+          />
+          <input
+            type="text"
+            id="signup"
+            class="fadeIn second"
+            name="user_phone"
+            placeholder="phone number"
+          />
+          <input
+            type="text"
+            id="password"
+            class="fadeIn third"
+            name="user_password"
+            placeholder="password"
+          />
+          <input
+            type="text"
+            id="password"
+            class="fadeIn third"
+            name="user_password_confirm"
+            placeholder="confirm password"
+          />
+          <input type="submit" class="fadeIn fourth" value="Sign Up" />
+        </form>
+
+        <!-- sign up -->
+        <div id="go_to_login">
+          <a class="underlineHover" href="login.html">Log In</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="successful"></div>
+    <div id="unsuccessful"></div>
+
+    <script src="signup_validation.js" type="module"></script>
+  </body>
+</html>

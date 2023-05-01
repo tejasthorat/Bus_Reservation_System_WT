@@ -1,0 +1,44 @@
+body {
+    background-color: #e3f2fd;
+}
+
+.main{
+    padding-left: 15%;
+}
+
+.booking_options{
+    text-align: center;
+    background-color:aquamarine;
+    width: 80%;
+    height: 100%;
+    border: 10px solid black;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#journey_date{
+    margin-top: 15px;
+}
+
+.main_style{
+    display: none;
+}
+
+.new_main_style{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 168);
+    text-align: center;
+    width: 80%;
+    border: 5px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ticket_av{
+    margin: 5% ; border: 2px solid red; border-radius: 4px; padding: 5px;
+}
